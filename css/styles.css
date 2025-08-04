@@ -1,0 +1,201 @@
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* task 1 */
+
+#categories {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nameOfCategory {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.categorie-item {
+  border-radius: 8px;
+  padding: 16px;
+
+  gap: 16px;
+  background-color: #f6f6fe;
+}
+
+.elements {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #2e2f42;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 392px;
+}
+
+/* task 2 */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.gallery li {
+  flex: 0 1 calc(33.33% - 16px);
+  box-sizing: border-box;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 48px;
+}
+
+/* task 3 */
+#username {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+  max-width: 360px;
+  max-height: 40px;
+}
+
+#greeting {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* task 4 */
+.login-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  max-width: 360px;
+  max-height: 40px;
+  margin-bottom: 8px;
+}
+
+.login_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 8px;
+}
+
+.login_button:hover {
+  background: #e6eeff;
+}
+
+/* task 5 */
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border-radius: 8px;
+}
+
+.change_color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  max-width: 148px;
+  max-height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.change_color:hover {
+  background: #e6eeff;
+}
